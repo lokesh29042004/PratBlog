@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: ${import.meta.env.VITE_API_BASE_URL}/sitemap.xml
+
+# Disallow admin/private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login
+Disallow: /signup
+
+# Allow important pages
+Allow: /blog/
+Allow: /explore
+Allow: /about

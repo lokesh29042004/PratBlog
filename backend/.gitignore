@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# Environment variables
+
+
+# Build/output folders
+.env
